@@ -1,0 +1,12 @@
+.button-counter {
+    min-width: 5vw;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.button-counter:hover{
+    cursor: pointer;
+}
+

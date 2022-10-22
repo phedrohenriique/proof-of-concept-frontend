@@ -1,0 +1,7 @@
+<h2>observable works!</h2>
+<h2>{{observable$ | async}}</h2>
+<h2>{{stateValue(observable$ | async)}}</h2>
+<button (click)="increaseValue()">observable button</button>
+<!-- the async syntax is meant to be used like the .subscribe() method with its own parameters, an
+observable is like a promise, to be solved it needs that method, unless using other libraries like 
+ngrx -->

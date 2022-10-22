@@ -1,0 +1,6 @@
+<h2>counter for observable</h2>
+<div style="display:flex;flex-direction:row;gap: 1em;">
+    <button class="button-counter" (click)="remove()">remove</button>
+    <h2>{{ counter$ | async}}</h2>
+    <button class="button-counter" (click)="add()">add</button>
+</div>
